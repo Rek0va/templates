@@ -1,0 +1,38 @@
+@media (max-width: 1300px) {
+  .about__section-vine {
+    border: none;
+}
+  .signup img {
+    display: none;
+  }
+  .section__signup-info {
+    border: none;
+  }
+  .middle-ages {
+    border: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .right {
+    display: none;
+  }
+  .table {
+    top: 345px;
+  }
+  .footer-border{
+   display: none;    
+  }
+  .footer-row{
+    display: none;
+  }
+}
+@media (max-width: 920px){
+    .middle-ages{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
